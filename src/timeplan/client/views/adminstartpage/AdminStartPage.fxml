@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="timeplan.client.views.adminstartpage.AdminStartPageViewController">
+   <children>
+      <AnchorPane prefHeight="63.0" prefWidth="606.0" style="-fx-background-color: #d3d3d3;">
+         <children>
+            <Button layoutX="24.0" layoutY="19.0" mnemonicParsing="false" onAction="#onLogUdButton" text="Log ud" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="profilButton" layoutX="304.0" layoutY="231.0" mnemonicParsing="false" onAction="#onProfilButton" prefHeight="165.0" prefWidth="299.0" text="Profil">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="afdelingsplanButton" layoutX="1.0" layoutY="231.0" mnemonicParsing="false" onAction="#onAfdelingsplanButton" prefHeight="166.0" prefWidth="299.0" text="Afdelingsplan">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="opretMedarbejderButton" layoutX="1.0" layoutY="63.0" mnemonicParsing="false" onAction="#onOpretMedarbejderButton" prefHeight="165.0" prefWidth="300.0" text="Opret Medarbejder">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="redigerMedarbejderButton" layoutX="304.0" layoutY="62.0" mnemonicParsing="false" onAction="#onRedigerMedarbejderButton" prefHeight="166.0" prefWidth="299.0" text="Rediger Medarbejder">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="timeplan.client.views.startpage.StartPageViewController">
+   <children>
+      <AnchorPane prefHeight="63.0" prefWidth="606.0" style="-fx-background-color: #d3d3d3;">
+         <children>
+            <Button fx:id="logUdButton" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" onAction="#onLogUdButton" text="Log ud" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="mineVagterButton" layoutX="-1.0" layoutY="64.0" mnemonicParsing="false" onAction="#onMineVagterButton" prefHeight="165.0" prefWidth="300.0" text="Mine Vagter">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="afdelingsplanButton" layoutX="303.0" layoutY="63.0" mnemonicParsing="false" onAction="#onAfdelingsplanButton" prefHeight="166.0" prefWidth="299.0" text="Afdelingsplan">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="tjekUdButton" disable="true" mnemonicParsing="false" onAction="#onTjekUdButton" prefHeight="166.0" prefWidth="299.0" text="Tjek ud" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="profilButton" layoutX="303.0" layoutY="233.0" mnemonicParsing="false" onAction="#onProfilbutton" prefHeight="165.0" prefWidth="299.0" text="Profil">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="tjekIndButton" layoutY="233.0" mnemonicParsing="false" onAction="#onTjekIndButton" prefHeight="166.0" prefWidth="299.0" text="Tjek ind">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

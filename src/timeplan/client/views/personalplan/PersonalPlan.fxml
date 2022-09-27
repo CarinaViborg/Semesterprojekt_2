@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="767.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="timeplan.client.views.personalplan.PersonalPlanViewController">
+   <children>
+      <VBox layoutY="52.0" prefHeight="490.0" prefWidth="587.0">
+         <children>
+            <GridPane alignment="BASELINE_LEFT" gridLinesVisible="true" prefHeight="487.0" prefWidth="587.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="325.5999755859375" minWidth="0.0" prefWidth="53.799981689453126" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="374.4000129699707" minWidth="0.0" prefWidth="197.00001831054686" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="374.4000129699707" minWidth="10.0" prefWidth="332.0000396728516" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <TextFlow prefHeight="65.0" prefWidth="46.0" textAlignment="CENTER">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="M">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" textAlignment="CENTER" GridPane.rowIndex="1">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" textAlignment="CENTER" GridPane.rowIndex="2">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="O">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" textAlignment="CENTER" GridPane.rowIndex="3">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" textAlignment="CENTER" GridPane.rowIndex="4">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="F">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" textAlignment="CENTER" GridPane.rowIndex="5">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="L">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </TextFlow>
+                  <TextFlow prefHeight="200.0" prefWidth="200.0" textAlignment="CENTER" GridPane.rowIndex="6">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="S">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </TextFlow>
+                  <TextField fx:id="mondayDateText" disable="true" editable="false" maxWidth="200.0" prefHeight="67.0" prefWidth="200.0" style="-fx-background-radius: 0;" text="test" GridPane.columnIndex="1" />
+                  <TextField fx:id="wednesdayDateText" disable="true" editable="false" maxWidth="200.0" prefHeight="65.0" prefWidth="200.0" style="-fx-background-radius: 0;" text="test" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="tuesdayDateText" disable="true" editable="false" maxWidth="200.0" prefHeight="62.0" prefWidth="200.0" style="-fx-background-radius: 0;" text="test" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="thursdayDateText" disable="true" editable="false" maxWidth="200.0" prefHeight="71.0" prefWidth="200.0" style="-fx-background-radius: 0;" text="test" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField fx:id="fridayDateText" disable="true" editable="false" maxWidth="200.0" prefHeight="65.0" prefWidth="200.0" style="-fx-background-radius: 0;" text="test" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <TextField fx:id="saturdayDateText" disable="true" editable="false" maxWidth="200.0" prefHeight="65.0" prefWidth="200.0" style="-fx-background-radius: 0;" text="test" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <TextField fx:id="sundayDateText" disable="true" editable="false" maxWidth="200.0" prefHeight="63.0" prefWidth="200.0" style="-fx-background-radius: 0;" text="test" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <TextArea fx:id="mondayTimeText" disable="true" editable="false" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" />
+                  <TextArea fx:id="tuesdayTimeText" disable="true" editable="false" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <TextArea fx:id="wednesdayTimeText" disable="true" editable="false" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <TextArea fx:id="thursdayTimeText" disable="true" editable="false" prefHeight="50.0" prefWidth="225.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <TextArea fx:id="fridayTimeText" disable="true" editable="false" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <TextArea fx:id="saturdayTimeText" disable="true" editable="false" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <TextArea fx:id="sundayTimeText" disable="true" editable="false" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+      <HBox prefHeight="54.0" prefWidth="765.0">
+         <children>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#onBackButton" prefHeight="54.0" prefWidth="65.0" style="-fx-background-radius: 0;" text="←">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <ToolBar prefHeight="53.0" prefWidth="718.0">
+              <items>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MINE VAGTER" textAlignment="RIGHT" wrappingWidth="412.70306396484375">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Text>
+              </items>
+            </ToolBar>
+         </children>
+      </HBox>
+      <VBox layoutX="594.0" layoutY="54.0" prefHeight="346.0" prefWidth="170.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Uge nr." textAlignment="CENTER" wrappingWidth="169.61480712890625">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </Text>
+            <HBox prefHeight="41.0" prefWidth="170.0">
+               <children>
+                  <Button fx:id="prevWeekButton" mnemonicParsing="false" onAction="#onPrevWeekButton" prefHeight="26.0" prefWidth="60.0" style="-fx-background-radius: 0;" text="←">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="weekLabel" alignment="CENTER" prefHeight="31.0" prefWidth="51.0" text="36" textAlignment="CENTER">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="nextWeekButton" mnemonicParsing="false" onAction="#onNextWeekButton" prefHeight="26.0" prefWidth="62.0" style="-fx-background-radius: 0;" text="→">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="År" textAlignment="CENTER" wrappingWidth="169.61480712890625">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+            <HBox prefHeight="41.0" prefWidth="170.0">
+               <children>
+                  <Button fx:id="prevWeekButton1" mnemonicParsing="false" onAction="#onPrevYearButton" prefHeight="26.0" prefWidth="60.0" style="-fx-background-radius: 0;" text="←">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="yearLabel" alignment="CENTER" prefHeight="31.0" prefWidth="60.0" text="2022" textAlignment="CENTER">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="nextYearButton" mnemonicParsing="false" onAction="#onNextYearButton" prefHeight="26.0" prefWidth="62.0" style="-fx-background-radius: 0;" text="→">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
